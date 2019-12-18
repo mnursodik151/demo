@@ -1,14 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "users": [
+    {
+      "userId": 1,
+      "username": "hapidznur",
+      "firstName": "hafid",
+      "lastName": "nur",
+      "email": "nuha.nurhafid@gmail.com",
+      "password": "m3nt4r1ku",
+      "phone": "08989809809",
+      "userStatus": 1,
+      "role": "Administrator" 
+    },
+    {
+      "userId": 2,
+      "username": "sodik",
+      "firstName": "m",
+      "lastName": "nur sodik",
+      "email": "sodik@gmail.com",
+      "password": "3ljlk123",
+      "phone": "08989809809",
+      "userStatus": 1,
+      "role": "Office" 
+    },
+    {
+      "userId": 1,
+      "username": "joko",
+      "firstName": "lelono",
+      "lastName": "samudro",
+      "email": "wjs@gmail.com",
+      "password": "djlkfjsd",
+      "phone": "0898809809",
+      "userStatus": 1,
+      "role": "Operator" 
+    },
+  ]
   }
 }
+
